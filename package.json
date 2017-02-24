@@ -1,0 +1,14 @@
+{
+    "name": "mocha",
+    "version": "0.1.0",
+    "description": "practice mocha",
+    "main": "js/main.js",
+    "scripts": {
+        "start": "static --cache 1"
+    },
+    "author": "turunco",
+    "license": "ISC",
+    "devDependencies": {
+        "mocha": "^3.2.0"
+    }
+}
