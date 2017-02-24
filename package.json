@@ -4,7 +4,7 @@
     "description": "practice mocha",
     "main": "js/main.js",
     "scripts": {
-        "start": "static --cache 1"
+        "test": "mocha"
     },
     "author": "turunco",
     "license": "ISC",
