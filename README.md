@@ -1,4 +1,4 @@
-# mocha test
+# practice mocha
 
 ## preparation
 
