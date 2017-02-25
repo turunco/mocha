@@ -3,11 +3,11 @@ before(() => {
     console.log('before');
 });
 after(() => {
-    console.log('before');
+    console.log('after');
 });
 
 
-// called each it
+// called each 'it'
 beforeEach(() => {
     console.log('beforeEach');
 });
