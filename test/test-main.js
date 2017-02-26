@@ -1,3 +1,10 @@
+//
+// SA) https://mochajs.org/#bdd
+//
+var assert = require('assert');
+var Main = require('../js/main.js').Main;
+
+
 // called once
 before(() => {
     console.log('before');
@@ -16,11 +23,6 @@ afterEach(() => {
 });
 
 
-//
-// SA) https://mochajs.org/#bdd
-//
-var assert = require('assert');
-var Main = require('../js/main.js').Main;
 describe('class Main', function() {
     describe('makeMessage_', function() {
 
